@@ -25,3 +25,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Push tag to Docker Hub
         run: docker push 3228841/ma-templates-service:latest
+
